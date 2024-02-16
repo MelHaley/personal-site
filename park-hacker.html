@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Mel Haley, PhD - Park Hacker</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="static/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<h1 id="logo"><a href="index.html">Mel Haley, PhD</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="resume.html">Resume</a></li>
+						<li><a href="index.html#contact" class="button primary">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- One -->
+			<section id="one" class="spotlight style1 bottom">
+				<span class="image fit main">
+					<img src="static/images/alexander-hoggard-Loiv3Mj4qXw-unsplash.jpg" alt="pic for ferris wheel" />
+				</span>
+				<div class="content">
+					<div class="container">
+						<header class="major">
+							<h2>ParkHacker</h2>
+							<p>TDI Capstone Project</p>
+						</header>
+					</div>
+				</div>
+				<a href="#main" class="goto-next scrolly">Next</a>
+			</section>
+
+			<!-- Main -->
+			<section>
+				<div id="main" class="wrapper style1"  >
+					<div class="container" >
+						<header>
+							<h2>Navigate the most efficient route through a theme park.</h2>
+							<div class="col-4 col-12-medium">
+								<a href="https://park-hacker.streamlit.app" target="_blank" class="image right">
+									<img src="static/images/try-ParkHacker.png"  alt="try ParkHacker"/>
+								</a>
+								<p>Every year, many families and groups plan vacations that are centered around visiting
+									theme parks. While various theme parks have different assortments of things to do,
+									one thing that they unfortunately all have in common is long, boring lines.</p>
+								<p>Indeed, the wait times for attractions at theme parks can be quite epic, as much as
+									24X longer than the length of the actual ride!</p>
+								<p>Current ride wait time data is available via park-specific apps, but they are of
+									limited use in planning your trip or if you'd rather not spend your day at the park
+									looking up wait times on your phone.</p>
+								<p>With the ParkHacker web app, you simply enter the park you wish to visit, the day
+									of your visit, the time you plan to arrive at the park, and the rides you want to
+									go on. In return, Park Hacker will output a customized itinerary of your preferred
+									rides and the order you should ride them in order to minimize wait times!</p>
+							</div>
+						</header>
+						<hr>
+						<header>
+							<h3>How does Park Hacker work?</h3>
+							<p>Under the hood, Park Hacker uses historical wait time data and weather data to model
+								future to create individual wait time predictors for each attraction at a given
+								theme park. Based on the user's input (which park, date of visit, time of visit,
+								preferred rides), Park Hacker combines wait time predictions with travel time
+								between each attraction to generate the itinerary that yields the shortest
+								amount of time spent in line.</p>
+							<li><a href="park_hacker1.html" target="_blank" class="button primary">Data Preprocessing Notebook</a></li>
+							<br>
+							<li><a href="park_hacker2.html" target="_blank" class="button primary">Wait Time Modeling Notebook</a></li>
+							<br>
+							<li><a href="https://github.com/MelHaley/Park-Hacker/tree/main" class="button primary">Github Repo</a></li>
+						</header>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-3 col-6-xsmall"><span class="image fit"><img src="" alt="" /></span></div>
+							<div class="col-6 col-12-xsmall">
+								<a href="https://park-hacker.streamlit.app" target="_blank" class="image fit">
+									<img src="static/images/try-ParkHacker.png"  alt="" />
+								</a>
+							</div>
+							<div class="col-4 col-6-xsmall"><span class="image fit"><img src="" alt="" /></span></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Footer -->
+			<footer>
+				<p style="text-align:center">&copy; Mel Haley. All rights reserved. Design:
+					<a href="http://html5up.net">HTML5 UP</a>
+				</p>
+			</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="static/assets/js/jquery.min.js"></script>
+			<script src="static/assets/js/jquery.scrolly.min.js"></script>
+			<script src="static/assets/js/jquery.dropotron.min.js"></script>
+			<script src="static/assets/js/jquery.scrollex.min.js"></script>
+			<script src="static/assets/js/browser.min.js"></script>
+			<script src="static/assets/js/breakpoints.min.js"></script>
+			<script src="static/assets/js/util.js"></script>
+			<script src="static/assets/js/main.js"></script>
+
+	</body>
+</html>
